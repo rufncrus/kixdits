@@ -1,0 +1,71 @@
+/*
+	Kixdits Web Design Theme by JND Enterprises
+	jndenterprises.com | @jndenterprises
+	Copyright 2007-2014 All Rights Reserved.
+	
+*/
+
+    .container-1 {
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+            
+    }
+
+
+    .section-plx-1 {
+    height: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../img/Jnd-Enterprises.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        
+    }
+
+    
+    
+    .section-plx-test {
+    height: 300px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../img/wt1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        
+    }
+        
+    .section-plx-test-2 {
+    height: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../img/wrk2.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+        
+    }
+
+    .jnd-us {
+    float:left; 
+    height:200px; 
+    width:200px;
+    border-radius: 10px;
+       
+    }
+
+    .row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+       
+    }
