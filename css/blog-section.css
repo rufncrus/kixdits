@@ -1,9 +1,15 @@
 /*blog section*/
 
     .blogicon {
-    font-size: 217px;
-    color:#000000;
+    font-size: 200px;
+    color:#5cb85c;
 
+    }
+
+    .list-icon {
+    font-size: 200px;
+    color: #000000;  
+    
     }
 
     .ratetext {
