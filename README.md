@@ -1,7 +1,7 @@
 kixdits
 =======
 
-My on going website project developed using Bootstap 3.2.0
+My on going responsive website project developed using Bootstap 3.2.0
 
 Demo: http://rufncrus.github.io/kixdits/
 
