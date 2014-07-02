@@ -9,7 +9,9 @@ I have used several different pieces of code as you can see. I look forward to i
 
 Thank you to those below for their hard work and willingness to share.
 
-http://tympanus.net/codrops/
-http://bootsnipp.com/
-http://daneden.me/animate
-http://designers.hubspot.com/docs/snippets/design/implement-a-parallax-effect
+<ul>
+<li>http://tympanus.net/codrops/</li>
+<li>http://bootsnipp.com/</li>
+<li>http://daneden.me/animate</li>
+<li>http://designers.hubspot.com/docs/snippets/design/implement-a-parallax-effect</li>
+</ul>
