@@ -12,6 +12,7 @@ Thank you to those below for their hard work and willingness to share.
 <ul>
 <li>http://tympanus.net/codrops/</li>
 <li>http://bootsnipp.com/</li>
+<li>http://snipplicious.com/</li>
 <li>http://daneden.me/animate</li>
 <li>http://designers.hubspot.com/docs/snippets/design/implement-a-parallax-effect</li>
 </ul>
