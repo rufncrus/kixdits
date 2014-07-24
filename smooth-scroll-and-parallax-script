@@ -1,0 +1,44 @@
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/parallax-plugin.js"></script>
+
+
+<script>
+            
+            $('.section-plx-1').parallax({
+                speed : 0.15
+            
+            });
+            
+            $('.section-plx-test').parallax({
+                speed : 0.15
+            
+            });
+            
+            $('.section-plx-test-2').parallax({
+                speed : 0.15
+
+            });
+            
+            $('.section-plx-test-3').parallax({
+                speed : 0.15
+
+            });
+
+            $('.section-plx-test-4').parallax({
+                speed : 0.15
+            
+            });
+            
+            $('.section-plx-test-5').parallax({
+                speed : 0.15
+
+            });
+            
+            $('.section-plx-test-6').parallax({
+                speed : 0.15
+
+            });
+
+
+
+        </script>
