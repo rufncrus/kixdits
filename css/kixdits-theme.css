@@ -30,11 +30,11 @@
     
     
     .section-plx-test {
-    height: 300px;
+    height: 500px;
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url('../img/business-strong.jpg');
+    background-color:#29C3E9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -43,11 +43,53 @@
     }
         
     .section-plx-test-2 {
-    height: 300px;
+    height: auto;
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url('../img/social.jpg');
+    background-color:#991A71;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+        
+    }
+
+    .section-plx-test-3 {
+    height: 500px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:#3FA46A;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+        
+    }
+
+    .section-plx-test-4 {
+    height: 500px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:#F19F0F;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+        
+    }
+
+    .section-plx-test-5 {
+    height: 500px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:#244B74;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -57,8 +99,20 @@
     }
 
 
-    .row {
-    margin-top: 10px;
-    margin-bottom: 10px;
-       
+.section-plx-test-6 {
+    height: 500px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:#DA4839;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+        
     }
+
+
+
+
