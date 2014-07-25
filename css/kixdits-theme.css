@@ -6,8 +6,10 @@
 */
 
     body {
-    background-color: #29C3E9;
-        
+    background-image: url('../img/loading.gif');
+    background-color: #136DAD;
+    background-repeat: no-repeat;
+    background-position: center top;
     }
 
     .jumbotron {
@@ -89,7 +91,7 @@
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color:#29C3E9;
+    background-color:#136DAD;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
