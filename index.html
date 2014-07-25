@@ -17,14 +17,34 @@
         <meta property="og:url" content="http://jndenterprises.com/" />
         <meta property="og:site_name" content="JND Enterprises" />
         
-        
-        
-        <script src="js/pace.min.js"></script>
-        <link href="css/rotator-percentage-loader.css" rel="stylesheet" />
-        
   
         <link rel="stylesheet" type="text/css" href="styles.css" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        
+        <style>
+            
+        #pageloaddiv {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        background: url('img/loading.gif') no-repeat center center;
+        }
+            
+        </style>
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        
+        <script type="text/javascript">
+        $(window).load(function() {
+        $("#pageloaddiv").fadeOut(2000);
+        });
+            
+        </script>
         
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -43,10 +63,10 @@
     
 <div class="container-fluid">
     
+    <div id="pageloaddiv"></div>
     
-    
-    <div id="loader" data-scroll-reveal="wait 1.5s" class="row clearfix fluid section-kixdits-2" style="margin-bottom: -10px; margin-top: -10px;">
-        <div data-scroll-reveal="wait 2.5s" class="container-kixdits-1">
+    <div class="row clearfix fluid section-kixdits-2" style="margin-bottom: -10px; margin-top: -10px;">
+        <div class="container-kixdits-1">
             <div class="jumbotron text-center" style="background-color: transparent; color: #ffffff; text-shadow: 2px 2px 4px #000;">
                 <p class="lead">Built By "RUFNCRUS" </p>
                 <img class="img-responsive center-block" src="img/rufncrus.png">
@@ -328,18 +348,15 @@
         
 
 
-<!-- Start scripts --> 
+    <!-- Start scripts --> 
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.js"></script>
+        
         <script src='js/jquery.slabtext.js'></script>
+        <script src='js/SmoothScroll.js'></script>
 
-
-        <script src='js/scrollReveal.js'></script>
-
-        <script>window.scrollReveal = new scrollReveal();</script>
+        
 
         
     
