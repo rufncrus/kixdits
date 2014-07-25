@@ -5,6 +5,11 @@
 	
 */
 
+    body {
+    background-color: #29C3E9;
+        
+    }
+
     .jumbotron {
     background: #358CCE;
     color: #FFF;
@@ -24,7 +29,35 @@
     .kixdits-top-buffer { margin-top:30px; }
     .kixdits-bottom-buffer { margin-bottom:30px; }
 
+    .slabtexted .slabtext {
+        display:-moz-inline-box;
+        display:inline-block;
+        white-space:nowrap
+    }
 
+    .slabtextinactive .slabtext {
+        display:inline;
+        white-space:normal;
+        font-size:1em !important;
+        letter-spacing:inherit !important;
+        word-spacing:inherit  !important;
+        *letter-spacing:0 !important;*word-spacing:0 !important;
+    }
+
+    .slabtextdone .slabtext {
+    display:block;line-height:0.9;
+    }
+            
+    h1 {
+    text-align:left;
+    font-family:'LeagueGothicRegular', "Impact", Charcoal, Arial Black, Gadget, Sans serif;
+    text-transform: uppercase;
+    line-height:1;
+    color:#222;
+    font-size:300%;
+    /* Remember to set the correct font weight if using fontface */
+    font-weight:normal;
+    }
 
     .container-kixdits-1 {
     margin: 0 auto;
@@ -41,6 +74,7 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-image: url('../img/hdrrfn.jpg');
+    background-color: #29C3E9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -147,6 +181,5 @@
     .box > .icon > .info > .more a { font-family: "Roboto",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase;       text-decoration: none; }
     .box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
     .box .space { height: 30px; }
-
 
 
