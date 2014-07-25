@@ -6,10 +6,7 @@
 */
 
     body {
-    background-image: url('../img/loading.gif');
-    background-color: #136DAD;
-    background-repeat: no-repeat;
-    background-position: center top;
+    background-color: #29C3E9;
     }
 
     .jumbotron {
@@ -91,7 +88,7 @@
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color:#136DAD;
+    background-color:#991a71;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -104,7 +101,7 @@
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color:#991A71;
+    background-color:#29C3E9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

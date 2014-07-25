@@ -23,9 +23,9 @@
         
         <style>
             
-       .section-kixdits-2{ 
-       -webkit-animation-duration: 0.75s;
-       -webkit-animation-delay: 2s;
+       .container-kixdits-1 { 
+       -webkit-animation-duration: 3s;
+       -webkit-animation-delay: 0.1s;
        }
             
         </style>
@@ -58,15 +58,10 @@
     </div>
     
     
-<div class="row clearfix fluid section-kixdits-3" style="margin-top: 0px; margin-bottom: 0px;">
-    <div class="col-xs-12 kixdits-top-buffer kixdits-bottom-buffer"><h1 id="h1" style="color: #ffffff; text-shadow: 2px 2px 4px #000;">slabText &ndash; a jQuery plugin for producing big, bold &amp; responsive headlines</h1></div>
-</div>
-    
-    
 <div class="row clearfix fluid section-kixdits-4">
 
 
-        <!-- Boxes de Acoes -->
+         <!-- Boxes de Acoes -->
     	<div class="col-xs-12 col-sm-6 col-lg-4 kixdits-top-buffer">
 			<div class="box">							
 				<div class="icon">
@@ -128,10 +123,13 @@
 			</div> 
 		</div>		    
 		<!-- /Boxes de Acoes -->
-	
-
             
 </div><!-- row fluid end --> 
+    
+    
+    <div class="row clearfix fluid section-kixdits-3" style="margin-top: 0px; margin-bottom: 0px;">
+    <div class="col-xs-12 kixdits-top-buffer kixdits-bottom-buffer"><h1 id="h1" style="color: #ffffff; text-shadow: 2px 2px 4px #000;">slabText &ndash; a jQuery plugin for producing big, bold &amp; responsive headlines</h1></div>
+</div>
 
     
 <div class="row clearfix fluid section-kixdits-5" style="margin-top: 0px; margin-bottom: 0px;">
@@ -323,11 +321,7 @@
     
 
     
-</div><!-- End main content --> 
-           
-
-        
-
+</div><!-- End main content -->                    
 
     <!-- Start scripts --> 
     
@@ -339,30 +333,28 @@
         
         <script src='js/jquery.slabtext.js'></script>
         <script src='js/SmoothScroll.js'></script>
-
-        
-
         
     
-<script>
-    // Function to slabtext the H1 headings
-    function slabTextHeadlines() {
-        $("h1").slabText({
-            // Don't slabtext the headers if the viewport is under 380px
+        <script>
+            // Function to slabtext the H1 headings
+            function slabTextHeadlines() {
+            $("h1").slabText({
+            // Don't slabtext the headers if the viewport is under 2000px
             "viewportBreakpoint":200
-        });
-    };
+            });
+        };
     
-    // Called one second after the onload event for the demo (as I'm hacking the
-    // fontface load event a bit here)
+            // Called one second after the onload event for the demo (as I'm hacking the
+            // fontface load event a bit here)
 
-    // Please do not do this in a production environment - you should really use
-    // google WebFont loader events (or something similar) for better control
-    $(window).load(function() {
-        // So, to recap... don't actually do this, it's nasty!
-        setTimeout(slabTextHeadlines, 1000);
-    });
-</script>
+            // Please do not do this in a production environment - you should really use
+            // google WebFont loader events (or something similar) for better control
+            $(window).load(function() {
+            // So, to recap... don't actually do this, it's nasty!
+            setTimeout(slabTextHeadlines, 0);
+        });
+            
+    </script>
 
 
 <!-- end scripts --> 
